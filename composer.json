@@ -1,5 +1,5 @@
 {
-    "name": "idct/sftp-client",
+    "name": "idct/sftp-clientssss",
     "description": "Library that provides wrapper methods around SSH2 and SFTP to simplify file download/upload over SSH/SCP/SFTP.",
     "type": "library",
     "keywords": [
