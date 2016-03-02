@@ -1,5 +1,5 @@
 <?php
-namespace IDCT\Networking\Ssh;
+namespace O2Web\Networking\Ssh2;
 
 use IDCT\Networking\Ssh\Credentials;
 use \Exception as Exception;
@@ -27,7 +27,7 @@ use \Exception as Exception;
  * OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-class SftpClient
+class Client
 {
     /**
      * Credentials used for authorization of the connection

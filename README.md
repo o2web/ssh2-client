@@ -1,20 +1,23 @@
-idct-sftp-client
-==================
+# Ssh2-client
+--
+
+This pacakge has been forked from https://github.com/ideaconnect/idct-sftp-client
 
 Library that provides wrapper methods around SSH2, SCP and SFTP to simplify file download/upload over SSH/SCP/SFTP.
 
-warning
+
+## Warning
 =======
 I am still thinking about unification of download / upload methods by passing a paramter which would define the connection type therefore method names may change.
 
-example
-=======
+## Example
+
 
 ````php
-use IDCT\Networking\Ssh\SftpClient;
-use IDCT\Networking\Ssh\Credentials;
+use O2Web\Networking\Ssh2\Client;
+use O2Web\Networking\Ssh2\Credentials;
 
-$client = new SftpClient();
+$client = new Client();
 
 $username = 'YOUR_USER_NAME';
 $password = 'YOUR_PASSWORD';

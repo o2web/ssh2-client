@@ -1,5 +1,5 @@
 <?php
-namespace IDCT\Networking\Ssh;
+namespace O2Web\Networking\Ssh2;
 
 use \Exception as Exception;
 
